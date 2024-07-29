@@ -1,0 +1,4 @@
+*.py[cod]
+*.pdf
+experiments/*
+utils/*
