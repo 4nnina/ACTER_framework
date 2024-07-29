@@ -12,20 +12,6 @@ pmdata_users = ['p01', 'p02', 'p03', 'p04', 'p05', 'p06', 'p07', 'p08', 'p09', '
 main_custom_users_path = '../FITBIT_DATASET/custom_users/'
 custom_users = ['USER1', 'USER2', 'USER3', 'USER4']
 
-#AUDITEL
-auditel_data_path = '../AUDITEL/'
-auditel_file_path = auditel_data_path + 'visioni_groupclass_genre.csv'
-auditel_users_list = [1521, 505, 1105, 906, 1098, 1506, 1507, 1751, 1750, 1439, 840, 846, 391]
-
-#AUDITEL
-shop_path = 'datasets/SHOP/'
-shop_users_list = [10,11,12]
-
-#DIABETES
-diabetes_path = '../OhioT1DM/data/'
-diabetes_users_list = [596, 588, ]
-
-
 @dataclass
 class TemporalEvent:
     
@@ -89,39 +75,6 @@ class DataSet:
 
     def set_main_data_path(self, new_main_pmdata_path: str) -> None:
         self.main_data_path = new_main_pmdata_path
-
-@dataclass
-class DiabetesDataset(DataSet):
-    def __init__(self):
-        self.main_data_path = diabetes_path
-        self.users_list = diabetes_users_list
-        
-    def get_user_name(self, user_index: int) -> str:
-        if user_index < 0 or user_index >= len(self.users_list):
-            raise ValueError(f'user_index has to be between 0 and {len(self.users_list) -1}')
-        return self.users_list[user_index]
-
-@dataclass
-class AuditelDataset(DataSet):
-    def __init__(self):
-        self.main_data_path = auditel_file_path
-        self.users_list = auditel_users_list
-        
-    def get_user_name(self, user_index: int) -> str:
-        if user_index < 0 or user_index >= len(self.users_list):
-            raise ValueError(f'user_index has to be between 0 and {len(self.users_list) -1}')
-        return self.users_list[user_index]
-    
-@dataclass
-class ShopDataset(DataSet):
-    def __init__(self):
-        self.main_data_path = shop_path
-        self.users_list = shop_users_list
-        
-    def get_user_name(self, user_index: int) -> str:
-        if user_index < 0 or user_index >= len(self.users_list):
-            raise ValueError(f'user_index has to be between 0 and {len(self.users_list) -1}')
-        return self.users_list[user_index]
     
 @dataclass
 class FitbitDataSet(DataSet):
