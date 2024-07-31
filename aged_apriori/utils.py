@@ -3,7 +3,7 @@ from mlxtend.frequent_patterns import apriori
 from mlxtend.preprocessing import TransactionEncoder
 from types import FunctionType
 import pandas as pd
-from temporal_mining import aged_apriori, augment_by_column, find_sleep_patterns, find_sleep_rules, find_auditel_patterns, find_auditel_rules, find_shop_patterns, find_shop_rules, find_diabetes_patterns, find_diabetes_rules
+from temporal_mining import aged_apriori, augment_by_column, find_sleep_patterns, find_sleep_rules
 import warnings
 import functools
 

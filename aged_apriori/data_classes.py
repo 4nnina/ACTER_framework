@@ -5,11 +5,11 @@ import numpy as np
 import os
 
 #PMDATA
-main_pmdata_path = '../FITBIT_DATASET/pmdata/'
+main_pmdata_path = '../datasets/pmdata/'
 pmdata_users = ['p01', 'p02', 'p03', 'p04', 'p05', 'p06', 'p07', 'p08', 'p09', 'p10', 'p11', 'p13', 'p14', 'p15', 'p16'] # user p12 doesn't have light activity json
 
 #CUSTOM USERS
-main_custom_users_path = '../FITBIT_DATASET/custom_users/'
+main_custom_users_path = '../datasets/custom/'
 custom_users = ['USER1', 'USER2', 'USER3', 'USER4']
 
 @dataclass

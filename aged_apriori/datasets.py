@@ -3,7 +3,9 @@ import numpy as np
 import os
 import datetime as dt
 from datetime import timedelta
-from data_classes import FitbitDataSet
+import sys
+sys.path.append('../')
+from aged_apriori.data_classes import FitbitDataSet
 
 def generate_user_dataframes(fitbit_dataset: FitbitDataSet, user_index: int) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     user_data_path = fitbit_dataset.get_user_path(user_index)
@@ -27,10 +29,10 @@ def generate_user_dataframes(fitbit_dataset: FitbitDataSet, user_index: int) -> 
     return light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df
 
 def timeshift_sleep_quality_dataframe(sleep_quality_df: pd.DataFrame) -> pd.DataFrame:
-    sleep_quality_df['timestamp'] = sleep_quality_df['timestamp'].astype('datetime64').dt.date  # crop date only
+    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp']).dt.date # crop date only
     sleep_quality_df['timestamp'] = sleep_quality_df['timestamp'] - pd.Timedelta(days=1)        # timeshift back 1 day
     sleep_quality_df = sleep_quality_df[['timestamp','overall_score']]                          # select only needed columns
-    sleep_quality_df['timestamp'] = sleep_quality_df['timestamp'].astype('datetime64')          # change type to allow later merge
+    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp'])          # change type to allow later merge
     return sleep_quality_df
 
 def generate_sleep_and_activity_df(light_activity_df: pd.DataFrame, moderate_activity_df: pd.DataFrame, heavy_activity_df: pd.DataFrame, rest_df: pd.DataFrame, sleep_quality_df: pd.DataFrame) -> pd.DataFrame: 
