@@ -55,6 +55,13 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
 
         len_dataset = len(dataset)
         print(f'DATASET SIZE: {len_dataset}')
+
+        #crop dataset
+        if len_dataset > 150:
+            crop_index = int(input(f'Crop dataset to (default = {len_dataset}): ') or len_dataset)
+            dataset = dataset[-crop_index:]
+            len_dataset = len(dataset)
+            print(f'DATASET SIZE: {len_dataset}')
  
         if min_support == -1:
             min_support = ((140 - len_dataset)/10) * 0.001 + 0.04
@@ -96,18 +103,31 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
             test_query = []
             activity_value_test_string = None
             counter = 1
+            gap = False
 
             test_dataset_in_range = test_dataset[-query_range_start:-query_range_end]
             if query_range_end == 0:
                 test_dataset_in_range = test_dataset[-query_range_start:]
 
             for list_of_strings in test_dataset_in_range:  
-                current_day = list_of_strings[:-1]
-                timeloc = temporal_window + 1 - counter 
-                list_of_activities = temporal_from_strings([current_day], timeloc=timeloc)[0]
-                test_query = test_query + list_of_activities
-                activity_value_test_string = [x for x in list_of_strings if x.startswith(activity_type)][0]
+                if gap:             #found gap, reset test_query
+                    test_query = []
+                    gap = False
+
+                if 'G' in list_of_strings:
+                    gap = True
+                else:
+                    current_day = list_of_strings[:-1]
+                    timeloc = temporal_window + 1 - counter 
+                    list_of_activities = temporal_from_strings([current_day], timeloc=timeloc)[0]
+                    test_query = test_query + list_of_activities
+                    activity_value_test_string = [x for x in list_of_strings if x.startswith(activity_type)][0]
                 counter += 1
+
+            if gap:
+                query_range_end += 1
+                query_range_start = query_range_end + temporal_window + 1
+                continue
             
             print(f'Query: {test_query}')
             activity_value_test = TemporalEvent(activity_value_test_string)
@@ -151,7 +171,7 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
         results.append([aged_accuracy, classic_accuracy, len(train_dataset), len(test_dataset), len(aged_rules), len(classic_rules), aged_time, classic_time, len_dataset, min_support])
     
     results_df = pd.DataFrame(results, index=df_index, columns=['Aged Accuracy','Classic Accuracy', 'Train Size', 'Test Size', 'Aged Rules', 'Classic Rules', 'Aged Time', 'Classic Time', 'Dataset Size', 'Min Support'])
-    results_df.to_csv(f"experiments/ACCURACIES_CONTEXT{context_level}_{df_index[0]}_{activity_type}{activity_value}_TW{temporal_window}_NB{number_of_bins}_MS{min_support}_MC{min_confidence}_df.csv")   
+    results_df.to_csv(f"experiments/crop{crop_index}_CONTEXT{context_level}_{df_index[0]}_{activity_type}{activity_value}_TW{temporal_window}_NB{number_of_bins}_MS{min_support}_MC{min_confidence}_df.csv")   
 
 if __name__ == '__main__':
     validate_rules()

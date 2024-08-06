@@ -10,7 +10,7 @@ pmdata_users = ['p01', 'p02', 'p03', 'p04', 'p05', 'p06', 'p07', 'p08', 'p09', '
 
 #CUSTOM USERS
 main_custom_users_path = '../datasets/custom/'
-custom_users = ['USER1', 'USER2', 'USER3', 'USER4']
+custom_users = ['USER1','USER2', 'USER3', 'USER4']
 
 @dataclass
 class TemporalEvent:

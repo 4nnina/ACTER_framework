@@ -78,8 +78,15 @@ def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, n
     sleep_and_activity_df = generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset, user_index, number_of_bins)
     
     dataset = []
-    for row in sleep_and_activity_df[['light_discretized', 'moderate_discretized','heavy_discretized','rest_discretized','sleep_discretized']].itertuples():
-        dataset.append([str(row.light_discretized), str(row.moderate_discretized), str(row.heavy_discretized), str(row.rest_discretized), str(row.sleep_discretized)])
+    previous_date = sleep_and_activity_df['date'][0]
+    for row in sleep_and_activity_df[['date','light_discretized', 'moderate_discretized','heavy_discretized','rest_discretized','sleep_discretized']].itertuples():
+        curr_date = row.date
+        if curr_date != previous_date + timedelta(days=1):
+            dataset.append(['G'])
+        else:
+            dataset.append([str(row.light_discretized), str(row.moderate_discretized), str(row.heavy_discretized), str(row.rest_discretized), str(row.sleep_discretized)])
+        
+        previous_date = curr_date
 
     return dataset
 

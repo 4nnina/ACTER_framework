@@ -8,7 +8,7 @@ context_level : 0     # (0)-No context
                       # (4)-Holidays
                       # (5)-Holiday Weekends in same column 
 temporal_window : 3         # 3 or 0
-min_support : 0.04
+min_support : 0.03
 min_confidence : 0.8
 number_of_bins : 3
 type_fun_discritize : 1     # (0)-CUT, (1)-QCUT

@@ -47,7 +47,8 @@ def wrapper_function(dataset: list[list[TemporalEvent]], activity_type: str = 'Z
     this function allows experiments with both classic and aged apriori
     """
     temporal_dataset = temporal_from_strings(dataset)
-    augmented_dataset = augment_by_column(temporal_dataset, temporal_window=temporal_window)
+    augmented_dataset_with_gaps = augment_by_column(temporal_dataset, temporal_window=temporal_window)
+    augmented_dataset = remove_gaps(augmented_dataset_with_gaps)
     if exponential_decay:
         frequent_itemsets = apriori_function(augmented_dataset, min_support=min_support, temporal_window=temporal_window, exponential_decay=exponential_decay)
     else:

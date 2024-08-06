@@ -1,4 +1,6 @@
 *.py[cod]
 *.pdf
-experiments/*
+aged_apriori/experiments/*
 utils/*
+aged_apriori/datasets/*
+datasets/*
