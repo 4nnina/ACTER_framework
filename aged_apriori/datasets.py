@@ -29,10 +29,10 @@ def generate_user_dataframes(fitbit_dataset: FitbitDataSet, user_index: int) -> 
     return light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df
 
 def timeshift_sleep_quality_dataframe(sleep_quality_df: pd.DataFrame) -> pd.DataFrame:
-    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp']).dt.date # crop date only
+    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp']).dt.date       # crop date only
     sleep_quality_df['timestamp'] = sleep_quality_df['timestamp'] - pd.Timedelta(days=1)        # timeshift back 1 day
     sleep_quality_df = sleep_quality_df[['timestamp','overall_score']]                          # select only needed columns
-    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp'])          # change type to allow later merge
+    sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp'])               # change type to allow later merge
     return sleep_quality_df
 
 def generate_sleep_and_activity_df(light_activity_df: pd.DataFrame, moderate_activity_df: pd.DataFrame, heavy_activity_df: pd.DataFrame, rest_df: pd.DataFrame, sleep_quality_df: pd.DataFrame) -> pd.DataFrame: 
@@ -73,60 +73,75 @@ def generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset: FitbitD
     sleep_and_activity_df = discretize_values_sleep_and_activity_df(sleep_and_activity_df, number_of_bins)
     return sleep_and_activity_df
 
-
-def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, number_of_bins: int = 3) -> list[list[str]]:
-    sleep_and_activity_df = generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset, user_index, number_of_bins)
-    
-    dataset = []
-    previous_date = sleep_and_activity_df['date'][0]
-    for row in sleep_and_activity_df[['date','light_discretized', 'moderate_discretized','heavy_discretized','rest_discretized','sleep_discretized']].itertuples():
-        curr_date = row.date
-        if curr_date != previous_date + timedelta(days=1):
-            dataset.append(['G'])
-        else:
-            dataset.append([str(row.light_discretized), str(row.moderate_discretized), str(row.heavy_discretized), str(row.rest_discretized), str(row.sleep_discretized)])
-        
-        previous_date = curr_date
-
-    return dataset
-
-def generate_context_from_user(fitbit_dataset: FitbitDataSet, dataset_index: int, user_index: int, context_level: int) -> list[list[str]]:
+def generate_context_from_user(fitbit_dataset: FitbitDataSet, user_index: int, context_level: int, thresold_anomaly = None, time_steps_anomaly = None) -> list[list[str]]:
     user_data_path = fitbit_dataset.get_user_path(user_index)
     list_context_dir = os.listdir(user_data_path)
 
     #list of context's label
-    if context_level == 4 and dataset_index == 1:
+    if context_level == 4:
         context_types_list = ['holiday']
-    elif context_level == 5 and dataset_index == 1:
+    elif context_level == 5:
         context_types_list = ['hol_we']
+    elif context_level == 6:
+        context_types_list = ['anomalies']
     else:
         context_types_list = ['week']
-        if dataset_index == 1:
-            if context_level > 1:
-                context_types_list.append('holiday')
-            if context_level > 2:
-                context_types_list.append('weather')
+        if context_level > 1:
+            context_types_list.append('holiday')
+        if context_level > 2:
+            context_types_list.append('weather')
 
     #user context into dataframe
-    all_context_df_list = []
-    for context_type in context_types_list:
-        context_df_list = []
-        for csv_file_name in list_context_dir:
-            if csv_file_name.startswith(context_type):
-                df_from_csv = pd.read_csv(user_data_path + '/' + csv_file_name)
-                context_df_list.append(df_from_csv)
+    if context_level != 6:
+        all_context_df_list = []
+        for context_type in context_types_list:
+            context_df_list = []
+            for csv_file_name in list_context_dir:
+                if csv_file_name.startswith(context_type):
+                    df_from_csv = pd.read_csv(user_data_path + '/' + csv_file_name)
+                    context_df_list.append(df_from_csv)
 
-        context_df = pd.concat(context_df_list, axis=0, ignore_index=True)
-        all_context_df_list.append(context_df)
+            context_df = pd.concat(context_df_list, axis=0, ignore_index=True)
+            context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
+            all_context_df_list.append(context_df)
 
-    #merge in one dataframe
-    context_df = all_context_df_list[0]
-    for i in range(1,len(all_context_df_list)):
-        context_df = context_df.merge(all_context_df_list[i], on='date')
+        #merge in one dataframe
+        context_df = all_context_df_list[0]
+        for i in range(1,len(all_context_df_list)):
+            context_df = context_df.merge(all_context_df_list[i], on='date')
+    else:
+        context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}.csv')
+        context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
 
-    #list of context
-    context = []
-    for row in context_df[context_types_list].itertuples():
-        context.append(list(row[1:]))
+    return context_df, context_types_list
+
+def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, number_of_bins: int = 3, context_level: int = 0, thresold_anomaly = None, time_steps_anomaly = None) -> list[list[str]]:
+    sleep_and_activity_df = generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset, user_index, number_of_bins)
     
-    return context
+    if context_level > 0:
+        context_df, context_col_name = generate_context_from_user(fitbit_dataset, user_index, context_level, thresold_anomaly,time_steps_anomaly )
+        sleep_and_activity_df = sleep_and_activity_df.merge(context_df, on='date', how='inner')
+    else:
+        context_col_name = None
+
+    dataset = []
+    previous_date = sleep_and_activity_df['date'][0]
+    for row in sleep_and_activity_df.itertuples():
+        curr_date = row.date
+        if curr_date != previous_date + timedelta(days=1):
+            dataset.append(['G'])
+        else:
+            activity_row = []
+            if context_col_name is not None:
+                for ctx in context_col_name:
+                    ctx_label = str(getattr(row, ctx))
+                    if ctx_label != 'noVALUE' and ctx_label != 'N_0':
+                        activity_row.append(ctx_label)
+
+            activity_row += [str(row.light_discretized), str(row.moderate_discretized), str(row.heavy_discretized), str(row.rest_discretized), str(row.sleep_discretized)]
+            
+            dataset.append(activity_row)
+        
+        previous_date = curr_date
+
+    return dataset

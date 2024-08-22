@@ -33,13 +33,19 @@ def get_validation_params_decorator(func: FunctionType) -> FunctionType:
         min_support = args['min_support']
         min_confidence = args['min_confidence']
         exponential_decay = args['exponential_decay']
+        if context_level == 6:
+            thresold_anomaly = args['thresold_anomaly']
+            time_steps_anomaly = args['time_steps_anomaly']
+        else:
+            thresold_anomaly = None
+            time_steps_anomaly = None
         
-        func(datasets[dataset_index](), dataset_index, activity_type, activity_value, context_level, temporal_window, number_of_bins,  min_support, min_confidence, exponential_decay)
+        func(datasets[dataset_index](), dataset_index, activity_type, activity_value, context_level, temporal_window, number_of_bins,  min_support, min_confidence, exponential_decay, thresold_anomaly, time_steps_anomaly)
     
     return inner
 
 @get_validation_params_decorator
-def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_type: str, activity_value: int, context_level:int, temporal_window: int, number_of_bins: int, min_support: float, min_confidence: float, exponential_decay: bool) -> None:
+def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_type: str, activity_value: int, context_level:int, temporal_window: int, number_of_bins: int, min_support: float, min_confidence: float, exponential_decay: bool, thresold_anomaly: int, time_steps_anomaly: int ) -> None:
     results = []
     df_index = []
 
@@ -47,11 +53,7 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
         user_name = fitbit_dataset.get_user_name(user_index)
         print(f'Validating experiments for {user_name}')
       
-        dataset = generate_dataset_from_user(fitbit_dataset, user_index, number_of_bins)
-        
-        if context_level > 0:
-            context = generate_context_from_user(fitbit_dataset, dataset_index, user_index, context_level)
-            dataset = list(map(lambda x,y : y if (x[0] == 'noVALUE') else x+y, context, dataset))
+        dataset = generate_dataset_from_user(fitbit_dataset=fitbit_dataset, user_index=user_index, number_of_bins=number_of_bins, context_level=context_level, thresold_anomaly = thresold_anomaly, time_steps_anomaly = time_steps_anomaly)
 
         len_dataset = len(dataset)
         print(f'DATASET SIZE: {len_dataset}')
