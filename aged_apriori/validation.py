@@ -40,38 +40,52 @@ def get_validation_params_decorator(func: FunctionType) -> FunctionType:
             thresold_anomaly = None
             time_steps_anomaly = None
         
-        func(datasets[dataset_index](), dataset_index, activity_type, activity_value, context_level, temporal_window, number_of_bins,  min_support, min_confidence, exponential_decay, thresold_anomaly, time_steps_anomaly)
+        if dataset_index == 1:
+            crop = args['crop']
+        else:
+            crop = False
+        
+        func(datasets[dataset_index](), dataset_index, activity_type, activity_value, context_level, temporal_window, number_of_bins,  min_support, min_confidence, exponential_decay, thresold_anomaly, time_steps_anomaly, crop)
     
     return inner
 
 @get_validation_params_decorator
-def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_type: str, activity_value: int, context_level:int, temporal_window: int, number_of_bins: int, min_support: float, min_confidence: float, exponential_decay: bool, thresold_anomaly: int, time_steps_anomaly: int ) -> None:
+def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_type: str, activity_value: int, context_level:int, temporal_window: int, number_of_bins: int, min_support: float, min_confidence: float, exponential_decay: bool, thresold_anomaly: int, time_steps_anomaly: int, crop : bool ) -> None:
     results = []
     df_index = []
+
+    if context_level != 6:
+        thresold_anomaly = 0
+        time_steps_anomaly = 0
 
     for user_index in range(len(fitbit_dataset.users_list)):
         user_name = fitbit_dataset.get_user_name(user_index)
         print(f'Validating experiments for {user_name}')
       
-        dataset = generate_dataset_from_user(fitbit_dataset=fitbit_dataset, user_index=user_index, number_of_bins=number_of_bins, context_level=context_level, thresold_anomaly = thresold_anomaly, time_steps_anomaly = time_steps_anomaly)
+        dataset = generate_dataset_from_user(fitbit_dataset=fitbit_dataset, user_index=user_index, number_of_bins=number_of_bins, context_level=context_level, thresold_anomaly = thresold_anomaly, time_steps_anomaly = time_steps_anomaly, crop=crop)
 
         len_dataset = len(dataset)
         print(f'DATASET SIZE: {len_dataset}')
 
         #crop dataset
+        crop_index = crop
+        '''
         if len_dataset > 150:
             crop_index = int(input(f'Crop dataset to (default = {len_dataset}): ') or len_dataset)
             dataset = dataset[-crop_index:]
             len_dataset = len(dataset)
             print(f'DATASET SIZE: {len_dataset}')
- 
+        '''
         if min_support == -1:
             min_support = ((140 - len_dataset)/10) * 0.001 + 0.04
         
+        '''
         default_test_pct = 20 
         test_pct = int(input(f'Test % (default = {default_test_pct}): ') or default_test_pct) 
         if test_pct == 0: # to skip some problematic users
             continue
+        '''
+        test_pct = 20
 
         df_index.append(user_name)
         test_index = int(len_dataset * (test_pct * 0.01))
@@ -172,8 +186,8 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
         print(f'Analyzed {len(aged_results)} test datapoints.\nAged Apriori accuracy: {aged_accuracy}\nClassic Apriori accuracy: {classic_accuracy}')    
         results.append([aged_accuracy, classic_accuracy, len(train_dataset), len(test_dataset), len(aged_rules), len(classic_rules), aged_time, classic_time, len_dataset, min_support])
     
-    results_df = pd.DataFrame(results, index=df_index, columns=['Aged Accuracy','Classic Accuracy', 'Train Size', 'Test Size', 'Aged Rules', 'Classic Rules', 'Aged Time', 'Classic Time', 'Dataset Size', 'Min Support'])
-    results_df.to_csv(f"experiments/crop{crop_index}_CONTEXT{context_level}_{df_index[0]}_{activity_type}{activity_value}_TW{temporal_window}_NB{number_of_bins}_MS{min_support}_MC{min_confidence}_df.csv")   
+        results_df = pd.DataFrame(results, index=df_index, columns=['Aged Accuracy','Classic Accuracy', 'Train Size', 'Test Size', 'Aged Rules', 'Classic Rules', 'Aged Time', 'Classic Time', 'Dataset Size', 'Min Support'])
+        results_df.to_csv(f"experiments/crop{crop_index}_CONTEXT{context_level}_ANT{thresold_anomaly}_ANTS{time_steps_anomaly}_{df_index[0]}_{activity_type}{activity_value}_TW{temporal_window}_NB{number_of_bins}_MS{min_support}_MC{min_confidence}_df.csv")   
 
 if __name__ == '__main__':
     validate_rules()

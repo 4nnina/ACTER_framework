@@ -73,7 +73,7 @@ def generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset: FitbitD
     sleep_and_activity_df = discretize_values_sleep_and_activity_df(sleep_and_activity_df, number_of_bins)
     return sleep_and_activity_df
 
-def generate_context_from_user(fitbit_dataset: FitbitDataSet, user_index: int, context_level: int, thresold_anomaly = None, time_steps_anomaly = None) -> list[list[str]]:
+def generate_context_from_user(fitbit_dataset: FitbitDataSet, user_index: int, context_level: int, thresold_anomaly = None, time_steps_anomaly = None, crop = False) -> list[list[str]]:
     user_data_path = fitbit_dataset.get_user_path(user_index)
     list_context_dir = os.listdir(user_data_path)
 
@@ -110,22 +110,28 @@ def generate_context_from_user(fitbit_dataset: FitbitDataSet, user_index: int, c
         for i in range(1,len(all_context_df_list)):
             context_df = context_df.merge(all_context_df_list[i], on='date')
     else:
-        context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}.csv')
-        context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
+        if crop:
+            context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}Crop.csv')
+            context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
+        else:
+            context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}.csv')
+            context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
 
     return context_df, context_types_list
 
-def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, number_of_bins: int = 3, context_level: int = 0, thresold_anomaly = None, time_steps_anomaly = None) -> list[list[str]]:
+def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, number_of_bins: int = 3, context_level: int = 0, thresold_anomaly = None, time_steps_anomaly = None, crop = False) -> list[list[str]]:
     sleep_and_activity_df = generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset, user_index, number_of_bins)
     
     if context_level > 0:
-        context_df, context_col_name = generate_context_from_user(fitbit_dataset, user_index, context_level, thresold_anomaly,time_steps_anomaly )
+        context_df, context_col_name = generate_context_from_user(fitbit_dataset, user_index, context_level, thresold_anomaly,time_steps_anomaly, crop )
         sleep_and_activity_df = sleep_and_activity_df.merge(context_df, on='date', how='inner')
     else:
         context_col_name = None
 
+    sleep_and_activity_df.sort_values(by='date', inplace=True, ascending=True, ignore_index=True)
+
     dataset = []
-    previous_date = sleep_and_activity_df['date'][0]
+    previous_date = sleep_and_activity_df['date'][0] - timedelta(days=1)
     for row in sleep_and_activity_df.itertuples():
         curr_date = row.date
         if curr_date != previous_date + timedelta(days=1):
@@ -143,5 +149,8 @@ def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, n
             dataset.append(activity_row)
         
         previous_date = curr_date
+
+    if crop and context_level != 6:
+        dataset = dataset[-250:]
 
     return dataset
