@@ -1,0 +1,145 @@
+[{
+  "dateTime" : "06/19/23 05:00:44",
+  "value" : {
+    "bpm" : 84,
+    "confidence" : 0
+  }
+},{
+  "dateTime" : "06/19/23 18:30:14",
+  "value" : {
+    "bpm" : 90,
+    "confidence" : 0
+  }
+},{
+  "dateTime" : "06/19/23 18:30:29",
+  "value" : {
+    "bpm" : 93,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:30:39",
+  "value" : {
+    "bpm" : 92,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:30:44",
+  "value" : {
+    "bpm" : 81,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:30:49",
+  "value" : {
+    "bpm" : 79,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:30:54",
+  "value" : {
+    "bpm" : 83,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:30:59",
+  "value" : {
+    "bpm" : 87,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:31:04",
+  "value" : {
+    "bpm" : 81,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:31:09",
+  "value" : {
+    "bpm" : 79,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:31:24",
+  "value" : {
+    "bpm" : 77,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 18:31:29",
+  "value" : {
+    "bpm" : 75,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:16",
+  "value" : {
+    "bpm" : 83,
+    "confidence" : 0
+  }
+},{
+  "dateTime" : "06/19/23 19:33:21",
+  "value" : {
+    "bpm" : 82,
+    "confidence" : 0
+  }
+},{
+  "dateTime" : "06/19/23 19:33:26",
+  "value" : {
+    "bpm" : 83,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:31",
+  "value" : {
+    "bpm" : 81,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:36",
+  "value" : {
+    "bpm" : 83,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:41",
+  "value" : {
+    "bpm" : 84,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:46",
+  "value" : {
+    "bpm" : 83,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:33:56",
+  "value" : {
+    "bpm" : 81,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:34:01",
+  "value" : {
+    "bpm" : 80,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:34:06",
+  "value" : {
+    "bpm" : 78,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:34:11",
+  "value" : {
+    "bpm" : 76,
+    "confidence" : 1
+  }
+},{
+  "dateTime" : "06/19/23 19:34:21",
+  "value" : {
+    "bpm" : 78,
+    "confidence" : 1
+  }
+}]

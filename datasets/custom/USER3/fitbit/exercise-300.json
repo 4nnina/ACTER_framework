@@ -1,0 +1,6276 @@
+[{
+  "logId" : 55497771724,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 14,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 175,
+  "duration" : 1535000,
+  "activeDuration" : 1535000,
+  "steps" : 2061,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 25,
+    "caloriesOut" : 175.27146
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 179,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 179,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/23 08:37:09",
+  "startTime" : "05/01/23 07:07:44",
+  "originalStartTime" : "05/01/23 07:07:44",
+  "originalDuration" : 1535000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55637332336,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 26,
+    "name" : "lightly"
+  },{
+    "minutes" : 10,
+    "name" : "fairly"
+  },{
+    "minutes" : 2,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 86,
+  "calories" : 232,
+  "duration" : 2458000,
+  "activeDuration" : 2458000,
+  "steps" : 2231,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 114,
+    "minutes" : 40,
+    "caloriesOut" : 231.88164
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 114,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/08/23 05:12:50",
+  "startTime" : "05/06/23 06:19:14",
+  "originalStartTime" : "05/06/23 06:19:14",
+  "originalDuration" : 2458000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55707889997,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 16,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 5,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 85,
+  "calories" : 196,
+  "duration" : 2048000,
+  "activeDuration" : 2048000,
+  "steps" : 2016,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 34,
+    "caloriesOut" : 195.53816
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/10/23 08:27:01",
+  "startTime" : "05/08/23 12:44:33",
+  "originalStartTime" : "05/08/23 12:44:33",
+  "originalDuration" : 2048000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55707889998,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 17,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 97,
+  "calories" : 242,
+  "duration" : 1996000,
+  "activeDuration" : 1996000,
+  "steps" : 2485,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 33,
+    "caloriesOut" : 242.11924
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/10/23 08:27:01",
+  "startTime" : "05/09/23 06:27:00",
+  "originalStartTime" : "05/09/23 06:27:00",
+  "originalDuration" : 1996000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55707890000,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 24,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 5,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 84,
+  "calories" : 241,
+  "duration" : 2560000,
+  "activeDuration" : 2560000,
+  "steps" : 2594,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 42,
+    "caloriesOut" : 240.71157
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/10/23 08:27:02",
+  "startTime" : "05/09/23 15:57:02",
+  "originalStartTime" : "05/09/23 15:57:02",
+  "originalDuration" : 2560000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55732869291,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 18,
+    "name" : "fairly"
+  },{
+    "minutes" : 3,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 86,
+  "calories" : 171,
+  "duration" : 1546000,
+  "activeDuration" : 1546000,
+  "steps" : 1951,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 25,
+    "caloriesOut" : 171.22386
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/11/23 13:10:13",
+  "startTime" : "05/11/23 12:33:56",
+  "originalStartTime" : "05/11/23 12:33:56",
+  "originalDuration" : 1546000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55736324126,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 132,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 1552,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 19,
+    "caloriesOut" : 131.8091
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/11/23 16:11:44",
+  "startTime" : "05/11/23 15:47:48",
+  "originalStartTime" : "05/11/23 15:47:48",
+  "originalDuration" : 1178000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55753697000,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 15,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 218,
+  "duration" : 1946000,
+  "activeDuration" : 1946000,
+  "steps" : 2431,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 32,
+    "caloriesOut" : 218.31682
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/12/23 13:14:24",
+  "startTime" : "05/12/23 12:37:43",
+  "originalStartTime" : "05/12/23 12:37:43",
+  "originalDuration" : 1946000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55780563911,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 18,
+    "name" : "fairly"
+  },{
+    "minutes" : 4,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 163,
+  "duration" : 1536000,
+  "activeDuration" : 1536000,
+  "steps" : 1868,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 25,
+    "caloriesOut" : 163.16175
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/13/23 15:45:27",
+  "startTime" : "05/13/23 09:01:34",
+  "originalStartTime" : "05/13/23 09:01:34",
+  "originalDuration" : 1536000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55756190202,
+  "activityName" : "Corsa",
+  "activityTypeId" : 90009,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 30,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 170,
+  "calories" : 451,
+  "distance" : 4.233921,
+  "distanceUnit" : "Kilometer",
+  "duration" : 1800000,
+  "activeDuration" : 1800000,
+  "steps" : 4439,
+  "source" : {
+    "type" : "tracker",
+    "name" : "Versa 3",
+    "id" : "202973763",
+    "url" : "https://www.fitbit.com/",
+    "trackerFeatures" : ["CALORIES","ELEVATION","STEPS","PACE","VO2_MAX","HEARTRATE","GPS","DISTANCE"]
+  },
+  "logType" : "tracker",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "tcxLink" : "https://www.fitbit.com/activities/exercise/55756190202?export=tcx",
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 1,
+    "caloriesOut" : 12.66902999999985
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 1,
+    "caloriesOut" : 14.71655
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 27,
+    "caloriesOut" : 422.04506000000015
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 1,
+    "caloriesOut" : 16.25219
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 57,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 1,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 27,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 1,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "speed" : 8.4751,
+  "pace" : 424.7737489823129,
+  "vo2Max" : {
+    "vo2Max" : 43.850680000000004
+  },
+  "lastModified" : "05/14/23 13:26:31",
+  "startTime" : "05/14/23 12:40:13",
+  "originalStartTime" : "05/14/23 12:40:13",
+  "originalDuration" : 1800000,
+  "elevationGain" : 24.994,
+  "hasGps" : true,
+  "shouldFetchDetails" : true,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55810488398,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 7,
+    "name" : "lightly"
+  },{
+    "minutes" : 20,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 87,
+  "calories" : 221,
+  "duration" : 2099000,
+  "activeDuration" : 2099000,
+  "steps" : 2530,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 114,
+    "minutes" : 34,
+    "caloriesOut" : 221.00419
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 114,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/15/23 06:59:39",
+  "startTime" : "05/15/23 05:30:19",
+  "originalStartTime" : "05/15/23 05:30:19",
+  "originalDuration" : 2099000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55949749894,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 136,
+  "duration" : 1076000,
+  "activeDuration" : 1076000,
+  "steps" : 1671,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 17,
+    "caloriesOut" : 136.41602
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/20/23 06:49:33",
+  "startTime" : "05/20/23 06:28:49",
+  "originalStartTime" : "05/20/23 06:28:49",
+  "originalDuration" : 1076000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55950114668,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 147,
+  "duration" : 1126000,
+  "activeDuration" : 1126000,
+  "steps" : 1709,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 18,
+    "caloriesOut" : 147.1655
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/20/23 07:35:00",
+  "startTime" : "05/20/23 07:13:12",
+  "originalStartTime" : "05/20/23 07:13:12",
+  "originalDuration" : 1126000,
+  "elevationGain" : 30.48,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 55956108162,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 27,
+    "name" : "fairly"
+  },{
+    "minutes" : 53,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 647,
+  "duration" : 5019000,
+  "activeDuration" : 5019000,
+  "steps" : 8415,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 83,
+    "caloriesOut" : 647.27226
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/20/23 13:55:30",
+  "startTime" : "05/20/23 12:28:04",
+  "originalStartTime" : "05/20/23 12:28:04",
+  "originalDuration" : 5019000,
+  "elevationGain" : 88.392,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56002580145,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 19,
+    "name" : "fairly"
+  },{
+    "minutes" : 27,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 91,
+  "calories" : 365,
+  "duration" : 2868000,
+  "activeDuration" : 2868000,
+  "steps" : 4736,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 47,
+    "caloriesOut" : 365.48232
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/22/23 15:26:05",
+  "startTime" : "05/22/23 14:26:30",
+  "originalStartTime" : "05/22/23 14:26:30",
+  "originalDuration" : 2868000,
+  "elevationGain" : 39.624,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56024529678,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 10,
+    "name" : "fairly"
+  },{
+    "minutes" : 6,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 128,
+  "duration" : 1127000,
+  "activeDuration" : 1127000,
+  "steps" : 1372,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 110,
+    "minutes" : 18,
+    "caloriesOut" : 128.35391
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 110,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/23/23 15:28:14",
+  "startTime" : "05/23/23 15:04:16",
+  "originalStartTime" : "05/23/23 15:04:16",
+  "originalDuration" : 1127000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56039615209,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 10,
+    "name" : "lightly"
+  },{
+    "minutes" : 17,
+    "name" : "fairly"
+  },{
+    "minutes" : 6,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 206,
+  "duration" : 2048000,
+  "activeDuration" : 2048000,
+  "steps" : 1877,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 110,
+    "minutes" : 34,
+    "caloriesOut" : 205.90373
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 110,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/24/23 06:42:18",
+  "startTime" : "05/24/23 06:00:04",
+  "originalStartTime" : "05/24/23 06:00:04",
+  "originalDuration" : 2048000,
+  "elevationGain" : 18.288,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56155729303,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 13,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 3,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 82,
+  "calories" : 140,
+  "duration" : 1382000,
+  "activeDuration" : 1382000,
+  "steps" : 1605,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 23,
+    "caloriesOut" : 139.99918
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/29/23 07:16:15",
+  "startTime" : "05/29/23 06:46:16",
+  "originalStartTime" : "05/29/23 06:46:16",
+  "originalDuration" : 1382000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56176890478,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 25,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 0,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 86,
+  "calories" : 166,
+  "duration" : 1638000,
+  "activeDuration" : 1638000,
+  "steps" : 1740,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 27,
+    "caloriesOut" : 165.59318000000002
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/30/23 07:21:13",
+  "startTime" : "05/30/23 06:47:12",
+  "originalStartTime" : "05/30/23 06:47:12",
+  "originalDuration" : 1638000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 56187590675,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 8,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 2,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 81,
+  "calories" : 131,
+  "duration" : 1434000,
+  "activeDuration" : 1434000,
+  "steps" : 1376,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 23,
+    "caloriesOut" : 131.42519
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/30/23 16:28:52",
+  "startTime" : "05/30/23 15:47:30",
+  "originalStartTime" : "05/30/23 15:47:30",
+  "originalDuration" : 1434000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 57775227585,
+  "activityName" : "Corsa",
+  "activityTypeId" : 90009,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 34,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 158,
+  "calories" : 484,
+  "distance" : 5.166945,
+  "distanceUnit" : "Kilometer",
+  "duration" : 2021000,
+  "activeDuration" : 2016000,
+  "steps" : 4935,
+  "source" : {
+    "type" : "tracker",
+    "name" : "Versa 3",
+    "id" : "202973763",
+    "url" : "https://www.fitbit.com/",
+    "trackerFeatures" : ["CALORIES","ELEVATION","STEPS","PACE","VO2_MAX","HEARTRATE","GPS","DISTANCE"]
+  },
+  "logType" : "tracker",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "tcxLink" : "https://www.fitbit.com/activities/exercise/57775227585?export=tcx",
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 107,
+    "minutes" : 0,
+    "caloriesOut" : 11.13339000000002
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 107,
+    "max" : 138,
+    "minutes" : 2,
+    "caloriesOut" : 25.594
+  },{
+    "name" : "Attività aerobica",
+    "min" : 138,
+    "max" : 176,
+    "minutes" : 31,
+    "caloriesOut" : 456.08508
+  },{
+    "name" : "Picco",
+    "min" : 176,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 64,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 2,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 31,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "speed" : 9.235107142857142,
+  "pace" : 389.8168093030091,
+  "vo2Max" : {
+    "vo2Max" : 48.73594000000001
+  },
+  "lastModified" : "08/12/23 06:28:21",
+  "startTime" : "07/06/23 13:56:47",
+  "originalStartTime" : "07/06/23 13:56:47",
+  "originalDuration" : 2021000,
+  "elevationGain" : 45.415,
+  "hasGps" : true,
+  "shouldFetchDetails" : true,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 57775227586,
+  "activityName" : "Corsa",
+  "activityTypeId" : 90009,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 33,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 159,
+  "calories" : 478,
+  "distance" : 4.678304,
+  "distanceUnit" : "Kilometer",
+  "duration" : 1985000,
+  "activeDuration" : 1984000,
+  "steps" : 5020,
+  "source" : {
+    "type" : "tracker",
+    "name" : "Versa 3",
+    "id" : "202973763",
+    "url" : "https://www.fitbit.com/",
+    "trackerFeatures" : ["CALORIES","ELEVATION","STEPS","PACE","VO2_MAX","HEARTRATE","GPS","DISTANCE"]
+  },
+  "logType" : "tracker",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "tcxLink" : "https://www.fitbit.com/activities/exercise/57775227586?export=tcx",
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 107,
+    "minutes" : 1,
+    "caloriesOut" : 11.901210000000049
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 107,
+    "max" : 138,
+    "minutes" : 2,
+    "caloriesOut" : 25.84994
+  },{
+    "name" : "Attività aerobica",
+    "min" : 138,
+    "max" : 176,
+    "minutes" : 30,
+    "caloriesOut" : 447.25514999999996
+  },{
+    "name" : "Picco",
+    "min" : 176,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 62,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 2,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 30,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "speed" : 8.488850806451612,
+  "pace" : 424.0856721458649,
+  "vo2Max" : {
+    "vo2Max" : 46.01422
+  },
+  "lastModified" : "08/12/23 06:28:21",
+  "startTime" : "07/07/23 07:49:33",
+  "originalStartTime" : "07/07/23 07:49:33",
+  "originalDuration" : 1985000,
+  "elevationGain" : 72.238,
+  "hasGps" : true,
+  "shouldFetchDetails" : true,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59382087234,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 99,
+  "calories" : 127,
+  "duration" : 973000,
+  "activeDuration" : 973000,
+  "steps" : 1324,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 16,
+    "caloriesOut" : 127.33015
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "10/21/23 22:18:11",
+  "startTime" : "10/21/23 21:23:00",
+  "originalStartTime" : "10/21/23 21:23:00",
+  "originalDuration" : 973000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59688290775,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 19,
+    "name" : "fairly"
+  },{
+    "minutes" : 1,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 84,
+  "calories" : 166,
+  "duration" : 1536000,
+  "activeDuration" : 1536000,
+  "steps" : 1904,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 110,
+    "minutes" : 25,
+    "caloriesOut" : 166.48897
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 110,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/06/23 07:25:27",
+  "startTime" : "11/01/23 08:07:26",
+  "originalStartTime" : "11/01/23 08:07:26",
+  "originalDuration" : 1536000,
+  "elevationGain" : 3.048,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59737286580,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 8,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 9,
+    "name" : "fairly"
+  },{
+    "minutes" : 27,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 91,
+  "calories" : 312,
+  "duration" : 2919000,
+  "activeDuration" : 2919000,
+  "steps" : 3357,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 48,
+    "caloriesOut" : 311.60695
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/08/23 06:59:11",
+  "startTime" : "11/06/23 20:02:31",
+  "originalStartTime" : "11/06/23 20:02:31",
+  "originalDuration" : 2919000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59817060413,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 27,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 94,
+  "calories" : 318,
+  "duration" : 2509000,
+  "activeDuration" : 2509000,
+  "steps" : 3710,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 41,
+    "caloriesOut" : 317.62154
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/12/23 08:08:08",
+  "startTime" : "11/11/23 15:45:39",
+  "originalStartTime" : "11/11/23 15:45:39",
+  "originalDuration" : 2509000,
+  "elevationGain" : 60.96,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59947033516,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 28,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 100,
+  "calories" : 300,
+  "duration" : 2253000,
+  "activeDuration" : 2253000,
+  "steps" : 3728,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 32,
+    "caloriesOut" : 256.70782
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 5,
+    "caloriesOut" : 43.76574
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 5,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 5,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/18/23 07:17:54",
+  "startTime" : "11/13/23 13:38:23",
+  "originalStartTime" : "11/13/23 13:38:23",
+  "originalDuration" : 2253000,
+  "elevationGain" : 33.528,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59947033519,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 30,
+    "name" : "fairly"
+  },{
+    "minutes" : 40,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 555,
+  "duration" : 4454000,
+  "activeDuration" : 4454000,
+  "steps" : 6831,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 74,
+    "caloriesOut" : 554.62198
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/18/23 07:17:54",
+  "startTime" : "11/15/23 15:08:17",
+  "originalStartTime" : "11/15/23 15:08:17",
+  "originalDuration" : 4454000,
+  "elevationGain" : 100.584,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59947666823,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 20,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 188,
+  "duration" : 1332000,
+  "activeDuration" : 1332000,
+  "steps" : 2315,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 22,
+    "caloriesOut" : 188.24387000000002
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/18/23 09:05:51",
+  "startTime" : "11/18/23 07:30:51",
+  "originalStartTime" : "11/18/23 07:30:51",
+  "originalDuration" : 1332000,
+  "elevationGain" : 33.528,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59947666824,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 175,
+  "duration" : 1587000,
+  "activeDuration" : 1587000,
+  "steps" : 2133,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 26,
+    "caloriesOut" : 175.3189
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/18/23 09:05:51",
+  "startTime" : "11/18/23 08:16:05",
+  "originalStartTime" : "11/18/23 08:16:05",
+  "originalDuration" : 1587000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 59981036832,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 6,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 11,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 86,
+  "calories" : 172,
+  "duration" : 1537000,
+  "activeDuration" : 1537000,
+  "steps" : 1814,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 25,
+    "caloriesOut" : 171.73574
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/20/23 10:14:57",
+  "startTime" : "11/19/23 07:27:41",
+  "originalStartTime" : "11/19/23 07:27:41",
+  "originalDuration" : 1537000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60021089660,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 6,
+    "name" : "sedentary"
+  },{
+    "minutes" : 6,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 30,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 94,
+  "calories" : 381,
+  "duration" : 3328000,
+  "activeDuration" : 3328000,
+  "steps" : 4262,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 55,
+    "caloriesOut" : 380.58278
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "11/22/23 07:05:01",
+  "startTime" : "11/20/23 13:04:59",
+  "originalStartTime" : "11/20/23 13:04:59",
+  "originalDuration" : 3328000,
+  "elevationGain" : 30.48,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60253567741,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 7,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 4,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 83,
+  "calories" : 102,
+  "duration" : 973000,
+  "activeDuration" : 973000,
+  "steps" : 1004,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 110,
+    "minutes" : 16,
+    "caloriesOut" : 102.12006
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 110,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/05/23 07:47:45",
+  "startTime" : "11/28/23 13:42:28",
+  "originalStartTime" : "11/28/23 13:42:28",
+  "originalDuration" : 973000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60253567744,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 6,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 4,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 79,
+  "calories" : 149,
+  "duration" : 1382000,
+  "activeDuration" : 1382000,
+  "steps" : 1716,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 23,
+    "caloriesOut" : 149.21302
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/05/23 07:47:45",
+  "startTime" : "12/02/23 08:04:33",
+  "originalStartTime" : "12/02/23 08:04:33",
+  "originalDuration" : 1382000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60288657304,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 30,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 99,
+  "calories" : 355,
+  "duration" : 2662000,
+  "activeDuration" : 2662000,
+  "steps" : 4233,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 44,
+    "caloriesOut" : 354.98878
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/06/23 16:35:49",
+  "startTime" : "12/06/23 15:09:28",
+  "originalStartTime" : "12/06/23 15:09:28",
+  "originalDuration" : 2662000,
+  "elevationGain" : 94.488,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60341910011,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 91,
+  "calories" : 204,
+  "duration" : 1485000,
+  "activeDuration" : 1485000,
+  "steps" : 2500,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 24,
+    "caloriesOut" : 203.98418
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/09/23 08:48:58",
+  "startTime" : "12/09/23 08:09:41",
+  "originalStartTime" : "12/09/23 08:09:41",
+  "originalDuration" : 1485000,
+  "elevationGain" : 48.768,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60342254235,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 93,
+  "calories" : 142,
+  "duration" : 1075000,
+  "activeDuration" : 1075000,
+  "steps" : 1728,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 17,
+    "caloriesOut" : 142.04670000000002
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/09/23 09:34:24",
+  "startTime" : "12/09/23 09:06:01",
+  "originalStartTime" : "12/09/23 09:06:01",
+  "originalDuration" : 1075000,
+  "elevationGain" : 27.228,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60346365304,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 30,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 311,
+  "duration" : 2355000,
+  "activeDuration" : 2355000,
+  "steps" : 3967,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 39,
+    "caloriesOut" : 311.47898000000004
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/09/23 14:51:49",
+  "startTime" : "12/09/23 14:02:07",
+  "originalStartTime" : "12/09/23 14:02:07",
+  "originalDuration" : 2355000,
+  "elevationGain" : 42.672,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60434831353,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 18,
+    "name" : "lightly"
+  },{
+    "minutes" : 0,
+    "name" : "fairly"
+  },{
+    "minutes" : 0,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 85,
+  "calories" : 101,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 876,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 19,
+    "caloriesOut" : 101.35224
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/14/23 08:38:53",
+  "startTime" : "12/11/23 14:42:36",
+  "originalStartTime" : "12/11/23 14:42:36",
+  "originalDuration" : 1178000,
+  "elevationGain" : 0.0,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60434831356,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 6,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 160,
+  "duration" : 1331000,
+  "activeDuration" : 1331000,
+  "steps" : 1877,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 22,
+    "caloriesOut" : 159.83453
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/14/23 08:38:53",
+  "startTime" : "12/13/23 10:48:16",
+  "originalStartTime" : "12/13/23 10:48:16",
+  "originalDuration" : 1331000,
+  "elevationGain" : 36.576,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60434831357,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 3,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 139,
+  "duration" : 1024000,
+  "activeDuration" : 1024000,
+  "steps" : 1710,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 17,
+    "caloriesOut" : 139.35933
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/14/23 08:38:53",
+  "startTime" : "12/13/23 12:22:59",
+  "originalStartTime" : "12/13/23 12:22:59",
+  "originalDuration" : 1024000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60519205794,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 4,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 12,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 84,
+  "calories" : 195,
+  "duration" : 1639000,
+  "activeDuration" : 1639000,
+  "steps" : 1977,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 27,
+    "caloriesOut" : 195.28222
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/19/23 09:09:05",
+  "startTime" : "12/17/23 08:04:28",
+  "originalStartTime" : "12/17/23 08:04:28",
+  "originalDuration" : 1639000,
+  "elevationGain" : 48.768,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60519205797,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 7,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 83,
+  "calories" : 107,
+  "duration" : 922000,
+  "activeDuration" : 922000,
+  "steps" : 1223,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 15,
+    "caloriesOut" : 106.72698
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/19/23 09:09:06",
+  "startTime" : "12/18/23 10:24:16",
+  "originalStartTime" : "12/18/23 10:24:16",
+  "originalDuration" : 922000,
+  "elevationGain" : 15.24,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60620143843,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 4,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 81,
+  "calories" : 148,
+  "duration" : 1433000,
+  "activeDuration" : 1433000,
+  "steps" : 1701,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 23,
+    "caloriesOut" : 148.06128999999999
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/25/23 09:51:15",
+  "startTime" : "12/25/23 09:15:59",
+  "originalStartTime" : "12/25/23 09:15:59",
+  "originalDuration" : 1433000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60651704382,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 8,
+    "name" : "fairly"
+  },{
+    "minutes" : 72,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 100,
+  "calories" : 671,
+  "duration" : 4915000,
+  "activeDuration" : 4915000,
+  "steps" : 8091,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 73,
+    "caloriesOut" : 601.20306
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 8,
+    "caloriesOut" : 69.61568
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 8,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 8,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "12/27/23 16:21:36",
+  "startTime" : "12/27/23 14:50:36",
+  "originalStartTime" : "12/27/23 14:50:36",
+  "originalDuration" : 4915000,
+  "elevationGain" : 45.72,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60738869390,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 7,
+    "name" : "lightly"
+  },{
+    "minutes" : 18,
+    "name" : "fairly"
+  },{
+    "minutes" : 5,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 84,
+  "calories" : 193,
+  "duration" : 1843000,
+  "activeDuration" : 1843000,
+  "steps" : 2056,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 30,
+    "caloriesOut" : 192.72282
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "01/02/24 13:49:38",
+  "startTime" : "12/30/23 13:26:02",
+  "originalStartTime" : "12/30/23 13:26:02",
+  "originalDuration" : 1843000,
+  "elevationGain" : 39.624,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 60738869391,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 8,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 18,
+    "name" : "fairly"
+  },{
+    "minutes" : 42,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 94,
+  "calories" : 521,
+  "duration" : 4403000,
+  "activeDuration" : 4403000,
+  "steps" : 6095,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 73,
+    "caloriesOut" : 521.09384
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "01/02/24 13:49:38",
+  "startTime" : "12/30/23 16:02:12",
+  "originalStartTime" : "12/30/23 16:02:12",
+  "originalDuration" : 4403000,
+  "elevationGain" : 109.728,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626241,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 9,
+    "name" : "fairly"
+  },{
+    "minutes" : 48,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 110,
+  "calories" : 505,
+  "duration" : 3430000,
+  "activeDuration" : 3430000,
+  "steps" : 5150,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 25,
+    "caloriesOut" : 207.69531
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 32,
+    "caloriesOut" : 297.14634
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 32,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 32,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:37",
+  "startTime" : "02/21/24 12:43:28",
+  "originalStartTime" : "02/21/24 12:43:28",
+  "originalDuration" : 3430000,
+  "elevationGain" : 129.946,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626242,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 103,
+  "calories" : 179,
+  "duration" : 1331000,
+  "activeDuration" : 1331000,
+  "steps" : 2082,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 14,
+    "caloriesOut" : 105.83118999999999
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 8,
+    "caloriesOut" : 73.45478
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 8,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 8,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:37",
+  "startTime" : "02/21/24 16:04:07",
+  "originalStartTime" : "02/21/24 16:04:07",
+  "originalDuration" : 1331000,
+  "elevationGain" : 18.288,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626243,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 1,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 93,
+  "calories" : 137,
+  "duration" : 1076000,
+  "activeDuration" : 1076000,
+  "steps" : 1609,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 17,
+    "caloriesOut" : 136.9279
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:37",
+  "startTime" : "02/21/24 17:13:14",
+  "originalStartTime" : "02/21/24 17:13:14",
+  "originalDuration" : 1076000,
+  "elevationGain" : 6.096,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626246,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 11,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 169,
+  "duration" : 1434000,
+  "activeDuration" : 1434000,
+  "steps" : 1719,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 19,
+    "caloriesOut" : 134.11256
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 4,
+    "caloriesOut" : 35.06378
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 4,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 4,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:37",
+  "startTime" : "02/23/24 13:55:07",
+  "originalStartTime" : "02/23/24 13:55:07",
+  "originalDuration" : 1434000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626247,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 90,
+  "calories" : 163,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 2026,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 21,
+    "caloriesOut" : 162.90581
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:38",
+  "startTime" : "02/24/24 09:07:24",
+  "originalStartTime" : "02/24/24 09:07:24",
+  "originalDuration" : 1280000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626248,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 6,
+    "name" : "sedentary"
+  },{
+    "minutes" : 7,
+    "name" : "lightly"
+  },{
+    "minutes" : 16,
+    "name" : "fairly"
+  },{
+    "minutes" : 58,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 662,
+  "duration" : 5274000,
+  "activeDuration" : 5274000,
+  "steps" : 7518,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 79,
+    "caloriesOut" : 589.04591
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 8,
+    "caloriesOut" : 73.19884
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 8,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 8,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:38",
+  "startTime" : "02/24/24 09:55:11",
+  "originalStartTime" : "02/24/24 09:55:11",
+  "originalDuration" : 5274000,
+  "elevationGain" : 100.584,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626251,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 5,
+    "name" : "lightly"
+  },{
+    "minutes" : 10,
+    "name" : "fairly"
+  },{
+    "minutes" : 17,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 94,
+  "calories" : 252,
+  "duration" : 2048000,
+  "activeDuration" : 2048000,
+  "steps" : 2898,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 31,
+    "caloriesOut" : 222.15592
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 3,
+    "caloriesOut" : 29.433100000000003
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 3,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 3,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:38",
+  "startTime" : "02/24/24 12:03:11",
+  "originalStartTime" : "02/24/24 12:03:11",
+  "originalDuration" : 2048000,
+  "elevationGain" : 45.72,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626252,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 11,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 90,
+  "calories" : 216,
+  "duration" : 1740000,
+  "activeDuration" : 1740000,
+  "steps" : 2525,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 29,
+    "caloriesOut" : 215.62945
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:38",
+  "startTime" : "02/24/24 13:04:38",
+  "originalStartTime" : "02/24/24 13:04:38",
+  "originalDuration" : 1740000,
+  "elevationGain" : 51.816,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626256,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 14,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 98,
+  "calories" : 151,
+  "duration" : 1075000,
+  "activeDuration" : 1075000,
+  "steps" : 1474,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 14,
+    "caloriesOut" : 128.22593999999998
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 3,
+    "caloriesOut" : 23.0346
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 3,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 3,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:39",
+  "startTime" : "02/24/24 15:11:47",
+  "originalStartTime" : "02/24/24 15:11:47",
+  "originalDuration" : 1075000,
+  "elevationGain" : 30.48,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626258,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 158,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 1781,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 21,
+    "caloriesOut" : 157.65904
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:39",
+  "startTime" : "02/24/24 15:56:09",
+  "originalStartTime" : "02/24/24 15:56:09",
+  "originalDuration" : 1280000,
+  "elevationGain" : 12.192,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626262,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 3,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 10,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 94,
+  "calories" : 169,
+  "duration" : 1484000,
+  "activeDuration" : 1484000,
+  "steps" : 1825,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 24,
+    "caloriesOut" : 168.66446
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:39",
+  "startTime" : "02/24/24 16:45:39",
+  "originalStartTime" : "02/24/24 16:45:39",
+  "originalDuration" : 1484000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626263,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 3,
+    "name" : "lightly"
+  },{
+    "minutes" : 7,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 183,
+  "duration" : 1433000,
+  "activeDuration" : 1433000,
+  "steps" : 2306,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 23,
+    "caloriesOut" : 183.12507
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:39",
+  "startTime" : "02/25/24 12:27:20",
+  "originalStartTime" : "02/25/24 12:27:20",
+  "originalDuration" : 1433000,
+  "elevationGain" : 60.96,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61796626265,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 2,
+    "name" : "fairly"
+  },{
+    "minutes" : 15,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 144,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 1760,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 19,
+    "caloriesOut" : 143.71031
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/25/24 20:49:39",
+  "startTime" : "02/25/24 15:23:07",
+  "originalStartTime" : "02/25/24 15:23:07",
+  "originalDuration" : 1178000,
+  "elevationGain" : 9.144,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 61803478123,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 19,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 104,
+  "calories" : 203,
+  "duration" : 1485000,
+  "activeDuration" : 1485000,
+  "steps" : 2353,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 24,
+    "caloriesOut" : 203.4723
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "02/26/24 08:20:15",
+  "startTime" : "02/26/24 07:44:33",
+  "originalStartTime" : "02/26/24 07:44:33",
+  "originalDuration" : 1485000,
+  "elevationGain" : 15.24,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 62020847818,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 10,
+    "name" : "fairly"
+  },{
+    "minutes" : 9,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 151,
+  "duration" : 1280000,
+  "activeDuration" : 1280000,
+  "steps" : 1737,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 112,
+    "minutes" : 21,
+    "caloriesOut" : 151.0046
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 112,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "03/08/24 09:35:05",
+  "startTime" : "03/01/24 13:29:21",
+  "originalStartTime" : "03/01/24 13:29:21",
+  "originalDuration" : 1280000,
+  "elevationGain" : 24.384,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 62718741097,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 12,
+    "name" : "lightly"
+  },{
+    "minutes" : 22,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 314,
+  "duration" : 2816000,
+  "activeDuration" : 2816000,
+  "steps" : 3467,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 46,
+    "caloriesOut" : 314.29431999999997
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "04/11/24 12:15:33",
+  "startTime" : "04/07/24 13:55:56",
+  "originalStartTime" : "04/07/24 13:55:56",
+  "originalDuration" : 2816000,
+  "elevationGain" : 73.152,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 62718741099,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 11,
+    "name" : "lightly"
+  },{
+    "minutes" : 13,
+    "name" : "fairly"
+  },{
+    "minutes" : 6,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 87,
+  "calories" : 187,
+  "duration" : 1792000,
+  "activeDuration" : 1792000,
+  "steps" : 2101,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 29,
+    "caloriesOut" : 187.34808
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 140,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 140,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "04/11/24 12:15:34",
+  "startTime" : "04/09/24 12:26:27",
+  "originalStartTime" : "04/09/24 12:26:27",
+  "originalDuration" : 1792000,
+  "elevationGain" : 15.24,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241763,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 2,
+    "name" : "lightly"
+  },{
+    "minutes" : 5,
+    "name" : "fairly"
+  },{
+    "minutes" : 13,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 88,
+  "calories" : 149,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 1827,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 108,
+    "minutes" : 19,
+    "caloriesOut" : 148.95708
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 108,
+    "max" : 139,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 139,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:23",
+  "startTime" : "04/25/24 16:56:40",
+  "originalStartTime" : "04/25/24 16:56:40",
+  "originalDuration" : 1178000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241766,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 1,
+    "name" : "lightly"
+  },{
+    "minutes" : 6,
+    "name" : "fairly"
+  },{
+    "minutes" : 16,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 101,
+  "calories" : 181,
+  "duration" : 1382000,
+  "activeDuration" : 1382000,
+  "steps" : 2195,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 22,
+    "caloriesOut" : 172.37559000000002
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 1,
+    "caloriesOut" : 8.19008
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 1,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 1,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:23",
+  "startTime" : "04/27/24 14:02:49",
+  "originalStartTime" : "04/27/24 14:02:49",
+  "originalDuration" : 1382000,
+  "elevationGain" : 27.432,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241769,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 2,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 4,
+    "name" : "fairly"
+  },{
+    "minutes" : 11,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 95,
+  "calories" : 190,
+  "duration" : 1587000,
+  "activeDuration" : 1587000,
+  "steps" : 2099,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 26,
+    "caloriesOut" : 190.16342
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:24",
+  "startTime" : "04/27/24 16:07:24",
+  "originalStartTime" : "04/27/24 16:07:24",
+  "originalDuration" : 1587000,
+  "elevationGain" : 39.624,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241776,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 10,
+    "name" : "fairly"
+  },{
+    "minutes" : 8,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 96,
+  "calories" : 142,
+  "duration" : 1178000,
+  "activeDuration" : 1178000,
+  "steps" : 1893,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 19,
+    "caloriesOut" : 142.43061
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:24",
+  "startTime" : "04/28/24 14:02:24",
+  "originalStartTime" : "04/28/24 14:02:24",
+  "originalDuration" : 1178000,
+  "elevationGain" : 45.72,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241779,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 1,
+    "name" : "sedentary"
+  },{
+    "minutes" : 0,
+    "name" : "lightly"
+  },{
+    "minutes" : 6,
+    "name" : "fairly"
+  },{
+    "minutes" : 11,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 92,
+  "calories" : 132,
+  "duration" : 1126000,
+  "activeDuration" : 1126000,
+  "steps" : 1669,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 111,
+    "minutes" : 18,
+    "caloriesOut" : 132.44895
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 111,
+    "max" : 141,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 141,
+    "max" : 177,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 177,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:25",
+  "startTime" : "04/28/24 15:48:13",
+  "originalStartTime" : "04/28/24 15:48:13",
+  "originalDuration" : 1126000,
+  "elevationGain" : 21.336,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+},{
+  "logId" : 63166241784,
+  "activityName" : "Camminata",
+  "activityTypeId" : 90013,
+  "activityLevel" : [{
+    "minutes" : 0,
+    "name" : "sedentary"
+  },{
+    "minutes" : 9,
+    "name" : "lightly"
+  },{
+    "minutes" : 18,
+    "name" : "fairly"
+  },{
+    "minutes" : 5,
+    "name" : "very"
+  }],
+  "averageHeartRate" : 89,
+  "calories" : 213,
+  "duration" : 1946000,
+  "activeDuration" : 1946000,
+  "steps" : 2140,
+  "logType" : "auto_detected",
+  "manualValuesSpecified" : {
+    "calories" : false,
+    "distance" : false,
+    "steps" : false
+  },
+  "heartRateZones" : [{
+    "name" : "Fuori zona",
+    "min" : 30,
+    "max" : 113,
+    "minutes" : 32,
+    "caloriesOut" : 212.81411
+  },{
+    "name" : "Grassi bruciati",
+    "min" : 113,
+    "max" : 142,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Attività aerobica",
+    "min" : 142,
+    "max" : 178,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  },{
+    "name" : "Picco",
+    "min" : 178,
+    "max" : 220,
+    "minutes" : 0,
+    "caloriesOut" : 0.0
+  }],
+  "activeZoneMinutes" : {
+    "totalMinutes" : 0,
+    "minutesInHeartRateZones" : [{
+      "minutes" : 0,
+      "zoneName" : "Grassi bruciati",
+      "order" : 1,
+      "type" : "FAT_BURN",
+      "minuteMultiplier" : 1
+    },{
+      "minutes" : 0,
+      "zoneName" : "Attività aerobica",
+      "order" : 2,
+      "type" : "CARDIO",
+      "minuteMultiplier" : 2
+    },{
+      "minutes" : 0,
+      "zoneName" : "Fuori zona",
+      "order" : 0,
+      "type" : "OUT_OF_ZONE",
+      "minuteMultiplier" : 0
+    },{
+      "minutes" : 0,
+      "zoneName" : "Picco",
+      "order" : 3,
+      "type" : "PEAK",
+      "minuteMultiplier" : 2
+    }]
+  },
+  "lastModified" : "05/02/24 12:58:25",
+  "startTime" : "05/01/24 07:51:36",
+  "originalStartTime" : "05/01/24 07:51:36",
+  "originalDuration" : 1946000,
+  "elevationGain" : 30.581,
+  "hasGps" : false,
+  "shouldFetchDetails" : false,
+  "hasActiveZoneMinutes" : true
+}]
