@@ -3,5 +3,4 @@
 aged_apriori/experiments/*
 utils/*
 aged_apriori/datasets/*
-datasets/*
 *.txt
