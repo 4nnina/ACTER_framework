@@ -110,7 +110,10 @@ def generate_context_from_user(fitbit_dataset: FitbitDataSet, user_index: int, c
         for i in range(1,len(all_context_df_list)):
             context_df = context_df.merge(all_context_df_list[i], on='date')
     else:
-        if crop:
+        if crop == 280:
+            context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}Crop280.csv')
+            context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
+        elif crop:
             context_df = pd.read_csv(f'../anomaly/experiments/{thresold_anomaly}thresh_{time_steps_anomaly}timesteps/anomalies_{fitbit_dataset.get_user_name(user_index)}Crop.csv')
             context_df['date'] = pd.to_datetime(pd.to_datetime(context_df['date']).dt.date)
         else:
@@ -150,7 +153,11 @@ def generate_dataset_from_user(fitbit_dataset: FitbitDataSet, user_index: int, n
         
         previous_date = curr_date
 
-    if crop and context_level != 6:
+    if crop == 280 and context_level != 6:
+        dataset = dataset[-280:]
+
+    if crop is True and context_level != 6:
         dataset = dataset[-250:]
+
 
     return dataset

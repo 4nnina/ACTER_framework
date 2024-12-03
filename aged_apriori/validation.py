@@ -4,9 +4,9 @@ import pandas as pd
 import time
 import yaml
 from data_classes import FitbitDataSet, TemporalEvent, CustomUsersFitbitDataset, PMDataFitbitDataset
-from datasets import generate_dataset_from_user, generate_context_from_user
-from experiments import filter_rules, get_rules_from_user, search_rules, sort_rules
-from utils import call_aged_apriori, call_classic_apriori, clean_context, temporal_from_strings, wrapper_function
+from datasets import generate_dataset_from_user
+from experiments import search_rules
+from utils import call_aged_apriori, call_classic_apriori, temporal_from_strings, wrapper_function
 from types import FunctionType
 from profilehooks import profile
 
@@ -69,23 +69,20 @@ def validate_rules(fitbit_dataset: FitbitDataSet, dataset_index:int, activity_ty
 
         #crop dataset
         crop_index = crop
-        '''
+        
         if len_dataset > 150:
             crop_index = int(input(f'Crop dataset to (default = {len_dataset}): ') or len_dataset)
             dataset = dataset[-crop_index:]
             len_dataset = len(dataset)
             print(f'DATASET SIZE: {len_dataset}')
-        '''
+        
         if min_support == -1:
             min_support = ((140 - len_dataset)/10) * 0.001 + 0.04
         
-        '''
         default_test_pct = 20 
         test_pct = int(input(f'Test % (default = {default_test_pct}): ') or default_test_pct) 
         if test_pct == 0: # to skip some problematic users
             continue
-        '''
-        test_pct = 20
 
         df_index.append(user_name)
         test_index = int(len_dataset * (test_pct * 0.01))

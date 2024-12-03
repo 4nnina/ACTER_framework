@@ -59,12 +59,6 @@ def compare_antecedents(query_antecedent: list[TemporalEvent], other_antecedent:
     return 3                    # similar match -> only similar
 
 def search_rules(query: list[TemporalEvent], rules: list[Rule]) -> dict:
-    '''
-    rough idea: scroll through the sorted rules, when you encounter an exact match, return it immediately
-    otherwise, keep going and collect one match, one partial match and one similar match
-    once the list has been exausted, return the best of the above that is not None
-    TODO: #6 handle rule not found error
-    '''
     match_types = ['Exact Match', 'Match', 'Partial Match', 'Similar Match', 'NO MATCH']
     sorted_rules = sort_rules(rules)
     best_rule_similarity = 4

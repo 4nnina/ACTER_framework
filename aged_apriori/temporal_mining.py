@@ -239,7 +239,6 @@ def find_sleep_patterns(frequent_itemsets: pd.DataFrame, activity_type: str = 'Z
 
     return frequent_patterns_list, frequent_itemsets_dict
 
-# TODO #16 #15 min_support is not used in this method
 def find_sleep_rules(frequent_patterns_list: list[tuple[float, list[TemporalEvent]]], frequent_itemsets_dict: dict, min_support: float = 0, min_confidence: float = 0) -> list[Rule]: 
     rules = []
 
