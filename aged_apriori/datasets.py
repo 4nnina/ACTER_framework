@@ -28,6 +28,15 @@ def generate_user_dataframes(fitbit_dataset: FitbitDataSet, user_index: int) -> 
     sleep_quality_df = pd.read_csv(user_data_path + '/' + 'sleep_score.csv')
     return light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df
 
+def generate_sleep_and_activity_df_custom(fitbit_dataset: FitbitDataSet, user_index: int):
+    user_data_path = fitbit_dataset.get_user_path(user_index)
+     
+    df_activity_sleep = pd.read_csv(user_data_path + '/' + 'activity.csv')
+    df_activity_sleep.rename(columns={'sleep_quality':'sleep'}, inplace=True)
+    df_activity_sleep['date'] = pd.to_datetime(df_activity_sleep['date']).dt.date
+    
+    return df_activity_sleep
+
 def timeshift_sleep_quality_dataframe(sleep_quality_df: pd.DataFrame) -> pd.DataFrame:
     sleep_quality_df['timestamp'] = pd.to_datetime(sleep_quality_df['timestamp']).dt.date       # crop date only
     sleep_quality_df['timestamp'] = sleep_quality_df['timestamp'] - pd.Timedelta(days=1)        # timeshift back 1 day
@@ -68,8 +77,12 @@ def discretize_values_sleep_and_activity_df(sleep_and_activity_df: pd.DataFrame,
     return sleep_and_activity_df
 
 def generate_discretized_sleep_and_activity_df_from_user(fitbit_dataset: FitbitDataSet, user_index: int, number_of_bins: int) -> pd.DataFrame:
-    light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df = generate_user_dataframes(fitbit_dataset, user_index)
-    sleep_and_activity_df = generate_sleep_and_activity_df(light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df)
+    
+    if 'USER' in fitbit_dataset.get_user_name(user_index):
+        sleep_and_activity_df = generate_sleep_and_activity_df_custom(fitbit_dataset, user_index)
+    else:
+        light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df = generate_user_dataframes(fitbit_dataset, user_index)
+        sleep_and_activity_df = generate_sleep_and_activity_df(light_activity_df, moderate_activity_df, heavy_activity_df, rest_df, sleep_quality_df)
     sleep_and_activity_df = discretize_values_sleep_and_activity_df(sleep_and_activity_df, number_of_bins)
     return sleep_and_activity_df
 
